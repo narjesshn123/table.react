@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<body>
+
+<div class="container">
+    <div class="tab tab-1">
+        <table id="table" border="1">
+            <tr>
+                <th>first name</th>
+                <th>last name</th>
+                <th>age</th>
+            </tr>
+            <tr>
+                <td>narjes</td>
+                <td>sheikhali</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>ashkan</td>
+                <td>sheikhali</td>
+                <td>28</td>
+            </tr>
+        </table>
+    </div>
+    <div class="tab tab-2">
+        first name:
+        <input type="text" name="fname" id="fname">
+        last name:
+        <input type="text" name="lname" id="lname">
+        age:
+        <input type="text" name="age" id="age">
+
+        <button onclick="addHtmlTableRow();">add</button>
+        <button onclick="editHtmlTableSelectedRow();">edit</button>
+        <button onclick="removeSelectedRow();">remove</button>
+    </div>
+</div>
+<script src="Script.js"></script>
+</body>
